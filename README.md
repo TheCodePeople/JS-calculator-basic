@@ -1,7 +1,7 @@
 # Calculator Task Instructions
 
 In this task, you will create a basic calculator using JavaScript that performs four basic calculation operations: addition, subtraction, multiplication, and division. The calculator will take two numbers and an operation as input and display the result in the browser. We will use a simple HTML file to observe the output.
-
+****
 ## Step 1: Set Up HTML File
 1. Create a new HTML file named "index.html".
 2. Inside the HTML file, set up a basic structure with the `<html>`, `<head>`, and `<body>` tags.
