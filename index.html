@@ -1,12 +1,38 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calculator</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="calculator">
+        <div class="result" id="result">0</div>
+        <div class="expression" id="expression"></div>
+        <button class="number" onclick="handleButtonClick('7')">7</button>
+        <button class="number" onclick="handleButtonClick('8')">8</button>
+        <button class="number" onclick="handleButtonClick('9')">9</button>
+        <button class="operator" onclick="handleOperator('+')">+</button>
+        <br />
+        <button class="number" onclick="handleButtonClick('4')">4</button>
+        <button class="number" onclick="handleButtonClick('5')">5</button>
+        <button class="number" onclick="handleButtonClick('6')">6</button>
+        <button class="operator" onclick="handleOperator('-')">-</button>
+        <br />
+        <button class="number" onclick="handleButtonClick('1')">1</button>
+        <button class="number" onclick="handleButtonClick('2')">2</button>
+        <button class="number" onclick="handleButtonClick('3')">3</button>
+        <button class="operator" onclick="handleOperator('*')">*</button>
+        <br />
+        <button class="number" onclick="handleButtonClick('0')">0</button>
+        <button class="number" onclick="handleButtonClick('.')">.</button>
+        <button onclick="clearResult()" class="operator">C</button>
+        <button class="operator" onclick="handleOperator('/')">/</button>
+        <br />
+        <button id="equal" onclick="handleEqual()">=</button>
+    </div>
 
-<script src="./calculator.js">Calculator</script>
-    </body>
-    </html>
+    <script src="./calculator.js"></script>
+</body>
+</html>
